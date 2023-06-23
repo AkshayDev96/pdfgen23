@@ -71,6 +71,8 @@ app.post("/gen_pdf", (req, res) => {
 
 app.get("/",(req,res)=>res.send("Welcome to website"));
 
-app.listen(process.env.PORT, () => {
-    console.log("Server is running on 2023")
+const PORT = 2023;
+
+app.listen(PORT, () => {
+    console.log("Server is running on "+PORT)
 })
