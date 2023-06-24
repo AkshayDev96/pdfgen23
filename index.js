@@ -146,9 +146,9 @@ app.get("/", async (req, res) => {
 //     console.log(pathOutput);
 //   }
 
+const PORT  = 80;
 
-
-app.listen(2023,  () => {
+app.listen(PORT,  () => {
     // try{
     //     test().then(()=>console.log("done")).catch((e)=>console.log(e))
     // }catch(e){
@@ -157,5 +157,5 @@ app.listen(2023,  () => {
 
     //    console.log(data)
 
-    console.log("Server is running on !!!!!"+2023)
+    console.log("Server is running on !!!!!"+PORT)
 })
